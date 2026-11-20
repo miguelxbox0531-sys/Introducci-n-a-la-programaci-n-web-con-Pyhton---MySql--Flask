@@ -1,0 +1,15 @@
+test_insertar_juego (test_api.TestControlador.test_insertar_juego) ... C:\Users\migue\OneDrive\Desktop\Base de datos WEB\Pruebas Unitarias en el MiniProyecto Flask\tests\test_api.py:12: DeprecationWarning: 'db' is deprecated, use 'database'
+  self.conexion = obtener_conexion()
+C:\Users\migue\OneDrive\Desktop\Base de datos WEB\Pruebas Unitarias en el MiniProyecto Flask\controlador_juegos.py:5: DeprecationWarning: 'db' is deprecated, use 'database'
+  conexion = obtener_conexion()
+ok
+test_conexion_exitosa (test_models.TestBaseDeDatos.test_conexion_exitosa) ... C:\Users\migue\OneDrive\Desktop\Base de datos WEB\Pruebas Unitarias en el MiniProyecto Flask\tests\test_models.py:5: DeprecationWarning: 'db' is deprecated, use 'database'
+  self.conexion = obtener_conexion()
+ok
+test_consulta_juegos (test_models.TestBaseDeDatos.test_consulta_juegos) ... ok
+test_flask_funciona (test_routes.TestRutas.test_flask_funciona) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.348s
+
+OK
